@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:ital,wght@0,300;0,400;0,500;1,300&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gluten&family=Kanit:ital,wght@0,300;0,400;0,500;1,300&family=Sedgwick+Ave+Display&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+ 
+}
+.navbar .navbar-brand{
+   font-family: 'Sedgwick Ave Display', cursive;
+   font-size: 30px;
+   color: rgba(14, 202, 11,.5);
+   margin-left: 25px;
+}
+.navbar .navbar-brand:hover{ 
+    transform: scale(1.4);
+    color: rgb(14, 202, 11);}
+#navbar{
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   box-shadow:0px 5px 20px rgba(0,0,0,0.5);
+   background-color: black;
+   box-sizing: border-box;font-family: 'Black Ops One', cursive;
+}
+#navbarTogglerDemo03 a{
+   color: white;
+}
+#navbarTogglerDemo03 a:hover{
+   color: rgb(14, 202, 11);
+   border-bottom:3px solid rgb(14, 202, 11);
+}
+#navbarTogglerDemo03 button{
+   background-color: rgb(14, 202, 11) ;
+   border-radius: 15px;
+}
+.signin{
+    background-color: rgb(14, 202, 11) !important;
+    color: white !important;
+    border-radius: 50px;
+    font-size: 15px !important;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
