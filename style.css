@@ -4,7 +4,7 @@
 *{
    margin: 0;
    padding: 0;
- 
+   box-sizing: border-box;
 }
 .navbar .navbar-brand{
    font-family: 'Sedgwick Ave Display', cursive;
@@ -52,15 +52,18 @@ section{
    justify-content: center;
    align-items: center;
 }
+
+
+
+/*home*/
 #home{
-   position: absolute;
-   bottom: 0px;
    background: linear-gradient(rgba(2, 2, 2, 0.1),rgba(0, 0, 1,0.9)),url(media/shose.jpg);
    background-repeat: no-repeat;
    background-position: center;
    color: rgb(244, 244, 248);
    background-color: rgb(15, 209, 161);
    flex-direction: column;
+   margin-top: 0px;
 }
 #home h1{
    font-family: 'Sedgwick Ave Display', cursive;
@@ -85,4 +88,23 @@ section{
    font-size: 15px !important;
    width: 80px;
    text-align: center;padding: 5px;
+}
+
+
+
+
+ /*about*/
+ #about{
+   background-color: rgb(15, 209, 161);
+   background-image: linear-gradient(rgba(2, 2, 2, 0.1),rgba(0, 0, 1,0.9));
+   color: white;
+   padding: 40px;
+}
+#about h1{
+    text-shadow: 2px 5px 5px rgb(14, 202, 11) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about img{
+   margin-top: 30px;
 }
