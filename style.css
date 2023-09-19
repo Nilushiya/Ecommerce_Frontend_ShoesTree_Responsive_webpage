@@ -109,3 +109,20 @@ section{
 #about img{
    margin-top: 30px;
 }
+
+
+/*product*/
+#product{
+   background-color: rgb(15, 209, 161);
+   background-image: linear-gradient(rgba(2, 2, 2, 0.4),rgba(0, 0, 1,0.7));
+   color: white;
+   padding: 20px;
+}
+#product h1{
+   text-shadow: 2px 5px 5px rgb(14, 202, 11) ;
+   margin-top: 20px;
+}
+#product img{
+   width: 250px;
+   height: 300px;
+}
