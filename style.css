@@ -126,3 +126,26 @@ section{
    width: 250px;
    height: 300px;
 }
+
+.card{
+   width: 55%;
+   margin-top: 90px;
+   margin-left: 100px;
+   border: none !important;
+   background:  rgb(102, 204, 153);
+   box-shadow: 15px 20px 20px rgba(174, 61, 61, 0.3),
+                   inset 4px 4px 10px rgba(248, 246, 246, 0.6);
+                   border-radius: 20px !important;
+                   overflow: hidden;
+                   justify-content: center;
+                   align-items: center;
+}
+.card a {
+   background-color: rgb(14, 202, 11) !important;
+   font-weight: 600px !important;
+   color: white;
+}
+.card:hover{
+   box-shadow: insert 5px 5px 10px rgba(0, 0, 0, 0.3),
+   inset -4px -4px 10px rgba(200, 30, 30, 0.6) !important;
+}
